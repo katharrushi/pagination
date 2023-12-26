@@ -18,7 +18,7 @@
     const [data,setData]=useState([]);
 
     const handleGlobalFilter=(e)=>{
-    const value=e.target.value||undefined;
+    const value=e.target.value|| '';
     setGlobalFilterText(value);
     };
     useEffect(() => {
